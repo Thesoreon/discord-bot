@@ -3,7 +3,7 @@ const commando = require("discord.js-commando");
 class DiceRollCommand extends commando.Command {
     constructor(client) {
         super(client, {
-            name: "roll",
+            name: "kostka",
             group: "random",
             memberName: "roll",
             description: "Hrací kostka"
@@ -12,7 +12,7 @@ class DiceRollCommand extends commando.Command {
 
     async run(message, args) {
         const roll = Math.floor(Math.random() * 6) + 1;
-        message.reply("You rolled " + roll);
+        message.reply("Hodil si " + roll);
     }
 }
 

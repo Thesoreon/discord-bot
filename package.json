@@ -4,7 +4,7 @@
   "description": "Personal bot for learning",
   "main": "index.js",
   "scripts": {
-    "dev": "node src/index.js"
+    "dev": "nodemon src/index.js"
   },
   "keywords": [
     "Discord",
@@ -17,5 +17,7 @@
     "discord.js": "^11.3.2",
     "discord.js-commando": "^0.9.0"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "nodemon": "^1.17.3"
+  }
 }
